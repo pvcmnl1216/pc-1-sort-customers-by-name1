@@ -70,6 +70,7 @@ public class Customer {
         return Objects.hash(customerId, customerName, customerGender, isSeniorCitizen, city);
     }
 
+
     @Override
     public String toString() {
         return "Customer{" + "customerId=" + customerId + ", customerName='" + customerName + '\'' + ", customerGender='" + customerGender + '\'' + ", isSeniorCitizen=" + isSeniorCitizen + ", city='" + city + '\'' + '}';
